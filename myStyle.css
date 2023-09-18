@@ -1,0 +1,71 @@
+body {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+
+}
+
+.links {
+    background-color: rgb(235, 207, 84);
+    display: flexbox;
+    color: white;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.loginForm {
+    border-radius: 60px;
+    height: 10%;
+    width: 30%;
+    background-color: rgb(103, 201, 103);
+    display: flexbox;
+    margin: 7% auto;
+    padding: 25px 30px;
+    position: relative;
+}
+
+.registerForm {
+    display: flexbox;
+
+    background-color: rgb(161, 135, 78);
+    height: auto;
+    margin: 7% auto;
+    padding: 25px 30px;
+    width: 30%;
+    border-radius: 30px;
+    background: transparent;
+    backdrop-filter: blur(25px);
+    border: 2px solid;
+    color: #fff;
+}
+
+.registerForm .mb-3 {
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    max-width: 650px;
+}
+
+.page {
+    background: url(https://www.bing.com/images/search?q=good%20background%20image%20for%20login%20page&FORM=IQFRBA&id=161C70789BDF312635D2213257B7DB72E4D65134);
+}
+
+.mb-3 input {
+    border-radius: 50px;
+    background: transparent;
+}
+
+.mb-3 svg {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+/* css */
