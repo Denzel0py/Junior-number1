@@ -12,49 +12,65 @@
 
     <title>My friends</title>
     <link rel="stylesheet" href="myStyle.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
 </head>
 <style>
+    body {
+        background-color: #003366;
+        color: white;
+        text-align: center;
 
+    }
 </style>
 
 <body>
 
-    <div class="links">
-        <div>
-            <th><a href="index2.html">Profile</a></th>
-            <th><a href="Friends.html">Friends</a></th>
-            <th><a href="same.html"> Additional info</a></th>
-            <th><a href="Register.html">REGISTRATION FORM</a></th>
-        </div>
-    </div>
+    <nav class="nav nav-pills flex-column flex-sm-row">
+        <a class="flex-sm-fill text-sm-center nav-link" href="index2.html">MY PROFILE</a>
+        <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="Friends.html">FRIENDS</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="same.html">ADDITIONAL INFO</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="Register.html">REGISTER </a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="Login.html">LOG IN</a>
+    </nav>
+
     <hr>
     <h1 style="font-family: Georgia;">Friends</h1>
     <hr>
 
-    <ol>
-        <li>
+    <div class="container">
 
-        </li>
+        <ol>
+            <li>
+            </li>
+            <p>Name: Christian Isaya</p>
+            <p>Status: Second year NUST student</p>
+            <p>Department: Software developer</p>
 
-        <p>Name: Christian Isaya</p>
-        <p>Status: Second year NUST student</p>
-        <p>Department: Software developer</p>
+            <li></li>
+            <p>Name: Buchane Muyoba</p>
+            <p>Status: first year NUST student</p>
+            <p>Department: Computer Science</p>
 
-        <li></li>
-        <p>Name: Buchane Muyoba</p>
-        <p>Status: first year NUST student</p>
-        <p>Department: Computer Science</p>
+            <li></li>
+            <p>Name: Fazo</p>
+            <p>Status: First year student</p>
+            <p>Department: Accounting</p>
 
-        <li></li>
-        <p>Name: Fazo</p>
-        <p>Status: First year student</p>
-        <p>Department: Accounting</p>
+            <li></li>
+            <p>Name: Kabuba</p>
+            <p>Status: First year NUST student</p>
+            <p>Department: HR</p>
+        </ol>
 
-        <li></li>
-        <p>Name: Kabuba</p>
-        <p>Status: First year NUST student</p>
-        <p>Department: HR</p>
-    </ol>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
 
 
 </body>
